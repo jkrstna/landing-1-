@@ -1,1 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body{
+  font: 400 18px/28px Inter, sans-serif;
+  background: #EFEFF2;
+  color: #19191C
+}
+
+h1 {font: 700 58px/87px Inter, sans-serif}
+h2 {font: 700 34px/51px Inter, sans-serif}
+h3 {font: 700 26px/39px Inter, sans-serif}
+h4 {font: 600 24px/36px Inter, sans-serif}
+h5{font: 600 20px/30px Inter, sans-serif}
+h6{font: 600 18px/27px Inter, sans-serif}
+h6.strong{font: 700 18px/27px Inter, sans-serif}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 100vw;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+    display: flex;
+    padding: 36px 0 0;
+    justify-content: space-between;
+  }
+}
+.header .logo{
+  display: flex;
+  align-items: center;
+}
+.header a.logo{
+  font: 700 24px/36px Inter, sans-serif;
+}
+.header a{
+  text-decoration: none;
+  color: #19191C;
+}
+@media screen and (min-width: 1024px) {
+  .header__box {
+    display: flex;
+    align-items: center;
+    gap: 98px;
+  }
+}
+.nav__list {
+  display: flex;
+  list-style: none;
+  gap: 48px;
+  padding: 0;
+  margin: 0;
+}
+
+.btn-nav-block{
+  display: flex;
+  gap: 48px;
+  align-items: center;
+}
+
+.btn-nav-block a.btn{
+  background: #19191C;
+  color: #EFEFF2;
+  padding: 12px 37px;
+  font-weight: 700;
+}
+main{
+  background: url(../img/bg_ellipse2.svg) no-repeat right top;
+}
+@media screen and (min-width: 1024px) {
+  .offer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .offer__holder{
+    width: 648px;
+    background: url(../img/bg_ellipse1.svg) 100% 100% no-repeat;
+    padding: 80px 0 390px;
+  }
+
+  .tags{
+    position: relative;
+    top: 100px
+  }
+  .tags li{
+    position: absolute;
+    list-style: none;
+    border: 1px solid #19191C;
+    padding: 10px 20px;
+  }
+  .tags li a{
+    color: #19191C
+  }
+  .tags li:first-child{
+    top: 70px;
+    right: 0
+  }
+  .tags li:nth-child(2){
+    top: 20px;
+    right: 100px
+  }
+  .tags li:nth-child(3){
+    top: 0;
+    right: 90px
+  }
+  .tags li:nth-child(3){
+    top: -50px;
+    right: 100px
+  }
+  .tags li:nth-child(4){
+    top: -60px;
+    right: 280px
+  }
+  .tags li:nth-child(5){
+    top: -80px;
+    right: 380px
+  }
+  .tags li:nth-child(6){
+    top: -60px;
+    right: 510px
+  }
+  .tags li a{
+    text-decoration: none;
+  }
+  .about{
+    display: flex;
+    justify-content: space-between;
+  }
+  .benefits{
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+  }
+  .benefits__item {
+    padding: 60px 45px;
+  }
+  .prices{
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 1023px) {
+  .offer__list img {
+    width: 100vw;
+  }
+}
+.benefits__item.portfolio{
+  background: #DEEFE4;
+}
+.benefits__item.internship{
+  background: #F3F3D7;
+}
+.benefits__item.certificate{
+  background: #EFDEEE;
+}
+
+footer{
+  background: #19191C;
+  color: #6D6D77;
+  padding: 36px 0
+}
+
+@media screen and (min-width: 1024px) {
+    div.footer {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+
+  .footer h6{
+    color: #FBFBFC;
+    padding: 24px 0
+  }
+
+  .footer li{
+    list-style: none;
+  }
+
+  .footer a{
+    color: #FBFBFC;
+    text-decoration: none;
+    font: 400 18px/28px Inter, sans-serif;
+  }
+
+  .footer__logo a{
+    font: 700 18px/24px Inter, sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 24px 0;
+  }
+
+
+  .footer a.bold{
+    font: 600 24px/36px Inter, sans-serif;
+    display: block;
+  }
+
+
+  .privacy-nav {
+    text-align: center;
+    padding: 72px 0 0
+  }
+  .privacy-nav a {
+    color: #6D6D77;
+  }
+}
+
+
 
